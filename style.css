@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+/* Common Css Start  */
+body{
+    margin: 0;
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+}
+/* Common Css End */
+/* Header Css Start  */
+header{
+    padding: 30px 0;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo{
+    width: 12%;
+    float: left;
+}
+.logo img{
+    width: 100%;
+    margin-top: 7px;
+}
+.menu{
+    float: right;
+    width: 75%;
+    overflow: hidden;
+}
+.menu ul{
+    list-style-type: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 55px;
+    display: inline-block;
+    color: #626262;
+    border-bottom: 1px solid transparent;
+    transition: .33s linear;
+}
+.menu ul li:last-child a{
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262;
+}
+/* Header Css End */
+/* Banner Css Start  */
+.b_image img{
+    width: 100%;
+}
+/* Banner Css End */
+/* Photodiary Css Start  */
+.photodiary{
+    padding: 100px 0;
+}
+.container2{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.light {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+    color: #626262;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.title {
+    font-size: 30px;
+    line-height: 36px;
+    margin: 20px 0 30px;
+}
+.text{
+    line-height: 24px;
+    margin: 0;
+}
+.p_link{
+    margin-top: 40px;
+    display: inline-block;
+}
+/* Photodiary Css End */
+/* Blog Css Start  */
+.blog{
+    padding: 0 0 100px;
+}
+.blog_item{
+    width: 47%;
+    float: left;
+}
+.b_image{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.blog_item:nth-child(even){
+    float: right;
+}
+.blog_item:nth-child(3){
+    margin-top: 120px;
+}
+.blog_item:nth-child(4){
+    margin-top: 120px;
+}
+/* Blog Css End */
